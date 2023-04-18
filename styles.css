@@ -258,6 +258,10 @@ h1 {
     align-items: center;
   }
 
+.shop-grid img:hover {
+  transform: translateY(4px);
+}
+
   .shop-grid img {
     background-color: #ccc;
     text-align: center;
@@ -432,3 +436,80 @@ h1 {
   .story img {
     border-radius: 10px;
   }
+
+  /* contact */
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2em;
+  gap: 0.75em;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 14vh;
+}
+
+ .contact {
+  display: flex;
+  height: 60vh;
+  margin: 0 5%;
+  margin-bottom: 10%;
+ }
+
+ .contact .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+ 
+ }
+
+.info img {
+  width: 26px;
+  height: 26px;
+  padding-left: 85%;
+}
+
+.info p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 10%;
+}
+
+.info .map {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.submission form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 6em;
+  gap: 0.5em;
+}
+
+.submission input {
+  height: 30px;
+}
+
+.submission .submit {
+  background-color: #708f65;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1.25em;
+  font-weight: bolder;
+  height: 5vh;
+}
+
+.submission .submit:hover {
+  background-color: #a1cd91;
+}
